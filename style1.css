@@ -1,0 +1,146 @@
+/*Khung*/
+.container {
+    max-width: 980px;
+}
+
+/*======margin*/
+.m-auto {
+    margin: 10px auto;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+/*==========padding*/
+.p-0 {
+    padding: 0;
+}
+
+.py-5 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.py-4 {
+    padding-top: 12px;
+    padding-bottom: 16px;
+}
+
+.py-3 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.px-5 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.px-4 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.px-3 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+/*=======background*/
+.bg-blue {
+    background-color: #272f54;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-orange {
+    background-color: #ca7801;
+}
+
+/*====text-alight*/
+.text-center {
+    text-align: center;
+}
+
+/*====display di chuyển màn hình*/
+.flex {
+    display: flex;
+}
+
+/* tự căn các con trong thành phần thành float*/
+.grid {
+    display: grid;
+}
+
+/*tác thành lưới*/
+.grid-cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+    /*lặp lại theo hàng 3 lần tách làm 3 phần bằng nhau*/
+}
+
+.gap-8 {
+    grid-gap: 32px;
+    /*khoảng cách giữa các cột*/
+}
+
+.justity-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.list-unstyled {
+    list-style: none;
+}
+
+/*color*/
+.text-white {
+    color: white;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-red {
+    color: blue;
+}
+
+.text-green {
+    color: green;
+}
+
+.text-orange {
+    color: #ca7801;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+/*hover*/
+.hover\:bg-blue:hover {
+    background-color: #272f54;
+}
+
+.m-w-full {
+    max-width: 100%;
+}
+
+/*border*/
+.bd {
+    border: solid 1px #272f54;
+}
+
+.m-10 {
+    margin: 10px;
+}
+
+.bd-radius-3 {
+    border-radius: 12px;
+}
